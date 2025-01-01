@@ -2,7 +2,7 @@
 
 This repository contains a Jupyter Notebook for implementing object detection using the YOLOv11 model. The project demonstrates the use of the ultralytics library to perform object detection tasks, leveraging GPU acceleration in a Google Colab environment.
 
-##Features
+## Features
 
 Custom YOLOv11 model (yolo11n.pt) for object detection.
 
@@ -14,11 +14,11 @@ Utilizes the Fridge More Food Dataset for training and evaluation.
 
 Detects the following food item classes: meat, milk, onion, tomato, zucchini.
 
-Dataset
+## Dataset
 
 The project uses the Fridge More Food Dataset, a comprehensive dataset containing images of various food items in a fridge. This dataset is ideal for training object detection models due to its diverse classes and annotations.
 
-Prerequisites
+## Prerequisites
 
 Before running the notebook, ensure you have:
 
