@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/yolov11/morefood.v3i.yolov11/train
+val: /content/drive/MyDrive/yolov11/morefood.v3i.yolov11/valid
+test: /content/drive/MyDrive/yolov11/morefood.v3i.yolov11/test
+nc: 5
+names: ['meat', 'milk', 'onion', 'tomato', 'zucchini']
