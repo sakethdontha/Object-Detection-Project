@@ -16,7 +16,7 @@ This repository contains a Jupyter Notebook for implementing object detection us
 
 ## Dataset
 
-The project uses the Fridge More Food Dataset, a comprehensive dataset containing images of various food items in a fridge. This dataset is ideal for training object detection models due to its diverse classes and annotations.
+The project uses the Fridge Food Dataset, a comprehensive dataset containing images of various food items in a fridge. This dataset is ideal for training object detection models due to its diverse classes and annotations.
 
 ## Prerequisites
 
