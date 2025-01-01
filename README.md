@@ -41,15 +41,15 @@ Before running the notebook, ensure you have:
 - Mount your Google Drive to access required data and save outputs.
 
 - from google.colab import drive
-  drive.mount('/content/drive')
+  - drive.mount('/content/drive')
 
 - Install the required dependencies:
 
-  !pip install ultralytics
+  - !pip install ultralytics
 
 - Verify GPU availability:
 
-  !nvidia-smi
+  - !nvidia-smi
 
 - Download the Fridge More Food Dataset from Roboflow and load it into your Google Drive or Colab environment.
 
@@ -63,10 +63,10 @@ Before running the notebook, ensure you have:
 
 - Outputs include labeled images with detected objects and confidence scores.
 
-Acknowledgments
+## Acknowledgments
 
 This project uses the Ultralytics implementation of YOLO. The dataset is sourced from Roboflow Universe, a platform for computer vision datasets. Special thanks to the Google Colab team for providing a free and powerful environment for machine learning.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
