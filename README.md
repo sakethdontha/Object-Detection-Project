@@ -1,4 +1,4 @@
-YOLOv11 Object Detection Project
+#YOLOv11 Object Detection Project
 
 This repository contains a Jupyter Notebook for implementing object detection using the YOLOv11 model. The project demonstrates the use of the ultralytics library to perform object detection tasks, leveraging GPU acceleration in a Google Colab environment.
 
