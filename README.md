@@ -10,7 +10,7 @@ This repository contains a Jupyter Notebook for implementing object detection us
 
 - GPU-accelerated processing for fast predictions.
 
-- Utilizes the Fridge More Food Dataset for training and evaluation.
+- Utilizes the [Fridge Food Dataset](https://universe.roboflow.com/fridge-j8zv6/more-food) for training and evaluation.
 
 - Detects the following food item classes: meat, milk, onion, tomato, zucchini.
 
