@@ -4,15 +4,15 @@ This repository contains a Jupyter Notebook for implementing object detection us
 
 ## Features
 
-Custom YOLOv11 model (yolo11n.pt) for object detection.
+- Custom YOLOv11 model (yolo11n.pt) for object detection.
 
-Integration with Google Drive for data and model storage.
+- Integration with Google Drive for data and model storage.
 
-GPU-accelerated processing for fast predictions.
+- GPU-accelerated processing for fast predictions.
 
-Utilizes the Fridge More Food Dataset for training and evaluation.
+- Utilizes the Fridge More Food Dataset for training and evaluation.
 
-Detects the following food item classes: meat, milk, onion, tomato, zucchini.
+- Detects the following food item classes: meat, milk, onion, tomato, zucchini.
 
 ## Dataset
 
