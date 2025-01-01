@@ -22,46 +22,46 @@ The project uses the Fridge More Food Dataset, a comprehensive dataset containin
 
 Before running the notebook, ensure you have:
 
-A Google account to access Google Colab and Google Drive.
+- A Google account to access Google Colab and Google Drive.
 
-Python 3.7 or later.
+- Python 3.7 or later.
 
-The following Python packages (installed automatically in the notebook):
+- The following Python packages (installed automatically in the notebook):
 
-ultralytics
+   - ultralytics
 
-google.colab
+   -  google.colab
 
-Getting Started
+## Getting Started
 
-Clone this repository or download the Yolov11.ipynb file.
+- Clone this repository or download the Yolov11.ipynb file.
 
-Open the notebook in Google Colab.
+- Open the notebook in Google Colab.
 
-Mount your Google Drive to access required data and save outputs.
+- Mount your Google Drive to access required data and save outputs.
 
-from google.colab import drive
-drive.mount('/content/drive')
+- from google.colab import drive
+  drive.mount('/content/drive')
 
-Install the required dependencies:
+- Install the required dependencies:
 
-!pip install ultralytics
+  !pip install ultralytics
 
-Verify GPU availability:
+- Verify GPU availability:
 
-!nvidia-smi
+  !nvidia-smi
 
-Download the Fridge More Food Dataset from Roboflow and load it into your Google Drive or Colab environment.
+- Download the Fridge More Food Dataset from Roboflow and load it into your Google Drive or Colab environment.
 
-Run the YOLOv11 prediction command:
+- Run the YOLOv11 prediction command:
 
-!yolo predict model=yolo11n.pt source='/path/to/your/image.jpg'
+- !yolo predict model=yolo11n.pt source='/path/to/your/image.jpg'
 
-Results
+## Results
 
-The notebook processes the input images and generates predictions using the YOLOv11 model.
+- The notebook processes the input images and generates predictions using the YOLOv11 model.
 
-Outputs include labeled images with detected objects and confidence scores.
+- Outputs include labeled images with detected objects and confidence scores.
 
 Acknowledgments
 
